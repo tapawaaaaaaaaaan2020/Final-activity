@@ -1,0 +1,385 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4; /* Set a background color for the body */
+}
+
+header {
+    background-color: #006666;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+#logo img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    padding-left: 550px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+    padding-right: 20px;
+    color: white;
+}
+
+.social-icons img {
+    width: 25px;
+    height: auto;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.main-container div {
+    flex: 1;
+}
+
+.main-container div img {
+    width: 800px;
+    height: 600px;
+    right: auto;
+    position: relative;
+    margin-top: 10px;
+    float: left;
+    display: flex;
+}
+
+.main-container div:first-child {
+    text-align: left;
+}
+
+.main-container div:last-child {
+    text-align: right;
+}
+
+.container-1 {
+    margin-top: 10px;
+    right: 1px;
+    width: 800px;
+    height: 600px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #006666;
+}
+
+.home-text04 {
+    top: 154px;
+    left: 114px;
+    color: white;
+    position: absolute;
+    font-size: 60px;
+    font-family: "Times New Roman";
+    text-transform: capitalize;
+}
+
+.home-text05 {
+    top: 271px;
+    left: 122px;
+    color: white;
+    position: absolute;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.home-button4 {
+    top: 475px;
+    left: 120px;
+    color: white;
+    width: 335px;
+    height: 49px;
+    position: absolute;
+    border-width: 0px;
+    border-radius: 2px;
+    background-color: orange;
+    transition: background-color 0.3s ease;
+}
+
+.home-button4 a {
+    color: white;
+    text-decoration: none;
+}
+
+.home-button4 a:hover {
+    background-color: gray;
+}
+
+.rectangle {
+    position: absolute;
+    top: 750px;
+    right: 20px;
+    height: 200px;
+    padding-left: 530px;
+    padding-right: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: orange;
+}
+
+.rectangle h1 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.rectangle p {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.subscribe-form {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.subscribe-form input,
+.subscribe-form button {
+    margin-top: 5px;
+    width: 150px;
+    padding: 5px;
+}
+
+.subscribe-form button {
+    background-color: #006666;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.container-2 {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+    background-color: #cccccc;
+    padding: 20px;
+    text-align: center; /* Center-align content within container-2 */
+}
+
+.container-2 h1 {
+    font-size: 40px;
+}
+
+.card {
+width: 300px;
+height: 600px; /* Set a fixed height for all cards */
+display: inline-block;
+margin: 20px;
+border-radius: 10px;
+overflow: hidden;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease-in-out;
+}
+.card-1{
+
+    background-color: #cc6666;
+}
+.card-2{
+
+    background-color: #cc9933;
+}
+.card-3{
+
+    background-color: #006666;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-text {
+    padding: 20px;
+    text-align: left;
+}
+
+.card-text p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.card-text h6 {
+    font-size: 14px;
+    font-weight: normal;
+    color: #666;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Add a slight scale effect on hover */
+}
+
+.download-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.download-button button {
+    padding: 15px;
+    background-color: #006666;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.download-button button:hover {
+    background-color: #004d4d;
+}
+
+.container-3 {
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    margin-bottom: 10%;
+}
+
+.container-3 h6,
+.container-3 em,
+.container-3 h2 {
+    color: #343333;
+    
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.image-item {
+    text-align: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.description {
+    color: #555;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.button-color-1 {
+
+    background-color: #cc6666;
+}
+
+.button-color-2 {
+
+    background-color: #cc9933;
+}
+
+.button-color-3 {
+    background-color: #006666;
+}
+
+.learn-more-button {
+    color: white;
+    width: 340px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.learn-more-button:hover {
+    background-color: #004d4d;
+}
+.container-4{
+    position: relative;
+    width: 120%;
+    height: 230px;
+    margin-top: 5%;
+    background-color: #cc6666;
+    padding: 20px;
+    font-size: large;
+    margin-right: 20px;
+    text-align: center; /* Center-align content within container-2 */
+}
+
+.connect-now-button {
+    background-color: #cc9933;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.connect-now-button:hover {
+    background-color: #004d4d;
+}
+
+.container-5 img{
+    margin-top: -5px;
+}
+
+/* Adjust the styles for the form container */
+.form-container {
+    float: right;
+    width: 50%; /* Adjust the width as needed */
+    background-color: #cc9933; /* You can use a different background color if needed */
+    color: white;
+    padding: 20px;
+}
+footer {
+    position: absolute;
+    bottom: -3500px;
+    left: 0;
+    width: 100%;
+    background-color: #006666;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.footer-1 {
+    margin-left: 20px;
+}
